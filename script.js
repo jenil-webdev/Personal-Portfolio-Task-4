@@ -1,3 +1,7 @@
+window.onload = function () {
+    window.scrollTo(0, 0);
+    history.replaceState(null, null, ' ');
+};
 // Selecting the menu icon and navbar
 let menuIcon = document.querySelector("#menu-icon");
 let navBar = document.querySelector(".navbar");
